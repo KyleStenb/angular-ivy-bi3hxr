@@ -37,6 +37,6 @@
   </div>
 </div>
 
-<input text="text" [{ngModel}]="username" />
-<div>{{ username }}</div>
-<button [disabled]="onClick"></button>
+<input text="text" [(ngModel)]="username" />
+<h2>{{ username }}</h2>
+<button [disabled]="onClick()">Click Me!</button>

@@ -10,6 +10,7 @@ export class AppComponent {
   itemImageURL: string =
     'https://www.ndsu.edu/fileadmin/www.ur.ndsu.edu/logo_usage/NDSU.logo.typebox.jpg';
   isSpecial: boolean = true;
+  username: string = '';
 
   onMouseOver(): void {
     this.isSpecial = !this.isSpecial;
@@ -19,7 +20,7 @@ export class AppComponent {
     this.isSpecial = !this.isSpecial;
   }
 
-  onClick(): boolean{
-    return this.username == 'helloworld';
+  onClick(): void {
+    this.username == 'hello world';
   }
 }
