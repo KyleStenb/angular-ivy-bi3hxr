@@ -20,7 +20,7 @@ export class AppComponent {
     this.isSpecial = !this.isSpecial;
   }
 
-  onClick(): void {
+  onClick() {
     this.username == 'hello world';
   }
 }
